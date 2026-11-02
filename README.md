@@ -88,10 +88,8 @@ The source environment is being established and synchronized. Device integration
 
 ## OGDR
 
-**Keep it OG.**
-
 Let me use my phone.
-
 "Because squinting at your phone shouldn't be a full-time job!" 😂
+**Keep it OG.**
 
 **Built by OGDR.**
