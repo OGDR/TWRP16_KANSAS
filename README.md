@@ -1,7 +1,4 @@
 # TWRP16_KANSAS
-Independently maintained TWRP 16.0 source tree for the Motorola Moto G 5G 2025 (Kansas / XT2513-1) — OGDR Edition.
-
-# TWRP16_KANSAS
 
 ## TWRP 16.0 — OGDR Edition
 
@@ -98,6 +95,5 @@ The source environment is being established and synchronized. Device integration
 Let me use my phone.
 
 Because squinting at your phone shouldn't be a full-time job!
-I don't want to go blind.
 
 **Built by OGDR.**
