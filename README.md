@@ -33,6 +33,51 @@ Development is maintained under OGDR, with an emphasis on stability, reliability
 - Device-specific recovery modifications.
 - Independent build and testing environment.
 
+## Getting the Source
+
+The OGDR TWRP16_KANSAS manifest defines the repositories and revisions required to initialize and synchronize the TWRP 16.0 source tree.
+
+### Requirements
+
+- Git
+- Repo
+- Internet connection
+
+### Initialize the Source Workspace
+
+Create and enter the source directory:
+
+```bash
+mkdir -p ~/android/twrp16ogdr
+cd ~/android/twrp16ogdr
+```
+
+Initialize the workspace using the OGDR manifest:
+
+```bash
+repo init -u https://github.com/OGDR/TWRP16_KANSAS.git -b main -m manifests/default.xml
+```
+
+### Synchronize the Source
+
+Download the projects specified by the manifest:
+
+```bash
+repo sync -c -j4
+```
+
+After synchronization completes, the TWRP 16.0 source tree will be available in the working directory.
+
+### Update an Existing Source Tree
+
+To synchronize an existing checkout with the latest manifest and project revisions:
+
+```bash
+repo sync -c -j4
+```
+
+**Note:** The manifest repository controls the source configuration and project revisions. The individual source repositories are checked out into the working directory.
+
 ## Device Support
 
 | Component | Details |
@@ -61,8 +106,6 @@ Development is maintained under OGDR, with an emphasis on stability, reliability
 
 The initial recovery development baseline uses an `eng` build configuration.
 
-Build instructions, required dependencies, device-tree integration, and additional configuration details will be documented as development progresses.
-
 ## Version Branching
 
 This repository is intended to support multiple TWRP generations through separate Git branches.
@@ -88,6 +131,6 @@ The source environment is being established and synchronized. Device integration
 
 ## OGDR
 
-Let me use my phone.\
-"Because squinting at your phone shouldn't be a full-time job!" 😂\
+Let me use my phone.
+"Because squinting at your phone shouldn't be a full-time job!" 😂
 **Keep it OG.**
