@@ -116,5 +116,5 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-23.2"/>
 
     <!-- LAST: Remove unused projects for minimal manifest -->
-    <include name="remove-minimal.xml"/>
+    <include name="manifests/remove-minimal.xml"/>
 </manifest>
