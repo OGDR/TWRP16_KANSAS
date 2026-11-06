@@ -1,0 +1,3 @@
+<manifest>
+    <extend-project name="android_bootable_recovery" revision="0315dbb53c47a0532546b7056f6af71b4dc0ddab"/>
+</manifest>
