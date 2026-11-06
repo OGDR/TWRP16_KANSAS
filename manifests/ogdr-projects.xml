@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="ogdr"
+            fetch="https://github.com/OGDR"/>
+
+    <!-- OGDR-maintained TWRP recovery -->
+    <extend-project name="android_bootable_recovery"
+                    remote="ogdr"
+                    revision="0e33c58212c64c596a68ead0107f205e9448d9fd"/>
+
+    <!-- OGDR-maintained Vold -->
+    <extend-project name="android_system_vold"
+                    remote="ogdr"
+                    revision="4c83041ec61f9b482085685f1e6aed5a62f103aa"/>
+
+    <!-- OGDR-maintained TWRP vendor -->
+    <extend-project name="android_vendor_twrp"
+                    remote="ogdr"
+                    revision="4c5070577457a8dbb87f71ed53925cb56b397234"/>
+</manifest>

@@ -1021,5 +1021,8 @@
 
   <!-- FIRST: Add/Replace repos and particular directories needed by TWRP -->
   <include name="twrp-default.xml"/>
+  <include name="oct18-twrp-pins.xml"/>
+  <include name="pre-gui2.xml"/>
+  <include name="ogdr-projects.xml"/>
 
 </manifest>
