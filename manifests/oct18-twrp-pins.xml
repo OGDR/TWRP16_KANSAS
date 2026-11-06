@@ -30,4 +30,9 @@
   <extend-project name="android_external_libncurses" revision="c750f7bae035137182c1ae8b4a133ff2c1801066"/>
   <extend-project name="android_se_omapi" revision="4d1e09a8b18dc3e2bec644e50401e28ea695f3d1"/>
   <extend-project name="external_magisk-prebuilt" revision="06808ed6045f6fdd7752124aba94b9698463c92c"/>
+  <extend-project name="android_external_bash" revision="1094f161361ad75af92c968da680f2f5b3cf752b"/>
+  <extend-project name="android_external_nano" revision="b83fc23d564c5377fc7c3322e5f75e81d8dad37e"/>
+  <extend-project name="android_external_ntfs-3g" revision="e2415df401538976fb89aa20370903e0c46e51ff"/>
+  <extend-project name="android_prebuilts_tools-lineage" revision="7cf9452c82a0265d00e8c444f25639b7aa66969d"/>
+  <extend-project name="phhusson/vendor_lptools" revision="c8be7de57b80eab61a6f94ec86464a01fb9056f2"/>
 </manifest>
